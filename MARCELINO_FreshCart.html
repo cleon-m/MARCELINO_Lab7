@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KBClub - Kickboxing and Muay Thai Gear</title>
+</head>
+<body style="text-align: center;">
+    <header id="top" align="center">
+        <img src="logo.png" alt="KBClub Logo" style="height: 200px; width: 250px;">
+        <h1>KBClub</h1>
+        <p>Train hard. Stay ready. Fight smart.</p>
+
+        <form action="#" method="get">
+            <label for="search">Search gear:</label>
+            <input type="search" id="search" name="q" placeholder="Search gloves, shorts, wraps...">
+            <button type="submit">Search</button>
+        </form>
+
+        <p><a href="#cart">View Cart</a></p>
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#gloves">Gloves</a> |
+            <a href="#apparel">Apparel</a> |
+            <a href="#protection">Protection</a> |
+            <a href="#cart">Cart</a> |
+            <a href="#checkout">Checkout</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Gear Up. Show Up.</h2>
+            <p>Shop kickboxing and Muay Thai essentials, from training gloves and hand wraps to fight shorts and protective equipment. Built for beginners, dedicated trainees, and experienced fighters.</p>
+            <a href="#gloves"><button type="button">Shop Gear</button></a>
+            <h3>Shop by Category</h3>
+            <table border="1" cellpadding="10" cellspacing="0" align="center">
+                <tr>
+                    <td><a href="#gloves">Gloves and Hand Wraps</a></td>
+                    <td><a href="#apparel">Fight Apparel</a></td>
+                    <td><a href="#protection">Protective Gear</a></td>
+                </tr>
+            </table>
+        </section>
+        <hr>
+
+        <section id="gloves">
+            <h2>Gloves and Hand Wraps</h2>
+            <p>Training essentials for bag work, pad work, and supervised sparring.</p>
+            <table border="1" cellpadding="10" cellspacing="0" align="center">
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="images.jpg" alt="Training boxing gloves product photo" width="220" height="160">
+                            <figcaption><strong>Training Gloves</strong></figcaption>
+                        </figure>
+                        <p>All-purpose gloves for bag and pad training.</p>
+                        <p>Price: <strong>₱1,850.00</strong></p>
+                        <label for="glove-size">Choose weight:</label>
+                        <select id="glove-size" name="glove-size">
+                            <option value="10oz">10 oz</option>
+                            <option value="12oz">12 oz</option>
+                            <option value="14oz" selected>14 oz</option>
+                            <option value="16oz">16 oz</option>
+                        </select>
+                        <p><button type="button">Add to Cart</button></p>
+                    </td>
+                    <td>
+                        <figure>
+                            <img src="venumhandwraps.jpg" alt="Pair of kickboxing hand wraps product photo" width="220" height="160">
+                            <figcaption><strong>Hand Wraps</strong></figcaption>
+                        </figure>
+                        <p>Support for your hands and wrists under gloves.</p>
+                        <p>Price: <strong>₱250.00</strong></p>
+                        <label for="wrap-length">Choose length:</label>
+                        <select id="wrap-length" name="wrap-length">
+                            <option value="3m">3 m</option>
+                            <option value="4.5m" selected>4.5 m</option>
+                            <option value="5m">5 m</option>
+                        </select>
+                        <p><button type="button">Add to Cart</button></p>
+                    </td>
+                    <td>
+                        <figure>
+                            <img src="mitts.jpg" alt="Pair of focus mitts product photo" width="220" height="160">
+                            <figcaption><strong>Focus Mitts</strong></figcaption>
+                        </figure>
+                        <p>Curved targets for partner pad-work drills.</p>
+                        <p>Price: <strong>₱1,450.00 / pair</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <hr>
+
+        <section id="apparel">
+            <h2>Kickboxing and Muay Thai Apparel</h2>
+            <p>Lightweight training clothes made for movement, practice, and gym sessions.</p>
+            <table border="1" cellpadding="10" cellspacing="0" align="center">
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="muaythaishorts.jpg" alt="Muay Thai fight shorts product photo" width="220" height="160">
+                            <figcaption><strong>Muay Thai Shorts</strong></figcaption>
+                        </figure>
+                        <p>Wide-leg shorts designed for kicks and knee movement.</p>
+                        <p>Price: <strong>₱950.00</strong></p>
+                        <label for="shorts-size">Choose size:</label>
+                        <select id="shorts-size" name="shorts-size">
+                            <option value="S">S</option>
+                            <option value="M" selected>M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                        <p><button type="button">Add to Cart</button></p>
+                    </td>
+                    <td>
+                        <figure>
+                            <img src="compression.jpg" alt="Compression training shirt product photo" width="220" height="160">
+                            <figcaption><strong>Compression Shirt</strong></figcaption>
+                        </figure>
+                        <p>Close-fitting top for training and conditioning sessions.</p>
+                        <p>Price: <strong>₱650.00</strong></p>
+                        <label for="compression-size">Choose size:</label>
+                        <select id="compression-size" name="compression-size">
+                            <option value="S">S</option>
+                            <option value="M" selected>M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                        <p><button type="button">Add to Cart</button></p>
+                    </td>
+                    <td>
+                        <figure>
+                            <img src="venumtee.jpg" alt="Kickboxing gym training shirt product photo" width="220" height="160">
+                            <figcaption><strong>Training Shirt</strong></figcaption>
+                        </figure>
+                        <p>Breathable gym shirt for drills and fitness workouts.</p>
+                        <p>Price: <strong>₱450.00</strong></p>
+                        <label for="training-shirt-size">Choose size:</label>
+                        <select id="training-shirt-size" name="training-shirt-size">
+                            <option value="S">S</option>
+                            <option value="M" selected>M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                        <p><button type="button">Add to Cart</button></p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <hr>
+
+        <section id="protection">
+            <h2>Protective Gear</h2>
+            <p>Protective equipment for training. Choose gear that fits correctly and follow your coach's safety guidance.</p>
+            <table border="1" cellpadding="10" cellspacing="0" align="center">
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="shinguards.jpg" alt="Pair of kickboxing shin guards product photo" width="220" height="160">
+                            <figcaption><strong>Shin Guards</strong></figcaption>
+                        </figure>
+                        <p>Shin and instep protection for supervised drills and sparring.</p>
+                        <p>Price: <strong>₱1,600.00</strong></p>
+                        <label for="shin-size">Choose size:</label>
+                        <select id="shin-size" name="shin-size">
+                            <option value="S">S</option>
+                            <option value="M" selected>M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                        <p><button type="button">Add to Cart</button></p>
+                    </td>
+                    <td>
+                        <figure>
+                            <img src="mouthguard.jpg" alt="Mouthguard product photo" width="220" height="160">
+                            <figcaption><strong>Mouthguard</strong></figcaption>
+                        </figure>
+                        <p>Mouth protection for contact-sport training.</p>
+                        <p>Price: <strong>₱350.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td>
+                        <figure>
+                            <img src="groinguard.jpg" alt="Groin protector product photo" width="220" height="160">
+                            <figcaption><strong>Groin Guard</strong></figcaption>
+                        </figure>
+                        <p>Protective equipment for appropriate training and sparring.</p>
+                        <p>Price: <strong>₱750.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                </tr>
+            </table>
+            <small>Always check fit, condition, and gym rules before using protective equipment.</small>
+        </section>
+        <hr>
+
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <table border="1" cellpadding="8" cellspacing="0" align="center">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Qty</th>
+                        <th>Subtotal</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Training Gloves (14 oz)</td>
+                        <td>₱1,850.00</td>
+                        <td><input type="number" id="qty-gloves" name="qty-gloves" min="1" max="20" value="1"></td>
+                        <td>₱1,850.00</td>
+                        <td><button type="button">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>Muay Thai Shorts (M)</td>
+                        <td>₱950.00</td>
+                        <td><input type="number" id="qty-shorts" name="qty-shorts" min="1" max="20" value="1"></td>
+                        <td>₱950.00</td>
+                        <td><button type="button">Remove</button></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="3" align="right">Total</th>
+                        <th>₱2,800.00</th>
+                        <td>—</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <p><a href="#checkout"><button type="button">Proceed to Checkout</button></a></p>
+        </section>
+        <hr>
+
+        <section id="checkout">
+            <h2>Checkout</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Shipping Details</legend>
+                    <p><label for="full-name">Full name:</label> <input type="text" id="full-name" name="full-name" required></p>
+                    <p><label for="email">Email:</label> <input type="email" id="email" name="email" placeholder="you@example.com" required></p>
+                    <p><label for="phone">Phone number:</label> <input type="tel" id="phone" name="phone" placeholder="09XX XXX XXXX"></p>
+                    <p><label for="address">Address:</label><br><textarea id="address" name="address" rows="3" cols="40" required></textarea></p>
+                    <p>
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city" list="cities" required>
+                        <datalist id="cities">
+                            <option value="Baguio City">
+                            <option value="Quezon City">
+                            <option value="Taguig City">
+                            <option value="Makati City">
+                            <option value="Cebu City">
+                        </datalist>
+                    </p>
+                    <p><label for="delivery-date">Delivery date:</label> <input type="date" id="delivery-date" name="delivery-date"></p>
+                    <p>
+                        <label for="delivery-option">Delivery option:</label>
+                        <select id="delivery-option" name="delivery-option">
+                            <option value="standard">Standard</option>
+                            <option value="express">Express</option>
+                            <option value="pickup">Store Pick-up</option>
+                        </select>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Payment Method</legend>
+                    <p><input type="radio" id="payment-card" name="payment" value="card" checked> <label for="payment-card">Credit / Debit Card</label></p>
+                    <p><input type="radio" id="payment-cod" name="payment" value="cod"> <label for="payment-cod">Cash on Delivery</label></p>
+                    <p><input type="radio" id="payment-ewallet" name="payment" value="ewallet"> <label for="payment-ewallet">E-Wallet</label></p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Extras and Agreement</legend>
+                    <p><input type="checkbox" id="gift-wrap" name="extras" value="gift-wrap"> <label for="gift-wrap">Gift wrap</label></p>
+                    <p><input type="checkbox" id="receipt" name="extras" value="receipt"> <label for="receipt">Include receipt</label></p>
+                    <p><input type="checkbox" id="terms-agree" name="terms-agree" value="yes" required> <label for="terms-agree">I agree to the <a href="#terms-info">Terms &amp; Conditions</a></label></p>
+                </fieldset>
+                <p><button type="submit">Place Order</button> <button type="reset">Clear</button></p>
+            </form>
+        </section>
+        <hr>
+
+        <section id="contact">
+            <h2>Visit Our Store</h2>
+            <p>Find FightCart in Baguio City.</p>
+            <iframe title="OpenStreetMap showing Baguio City" width="600" height="400" src="https://www.openstreetmap.org/export/embed.html?bbox=120.575%2C16.400%2C120.610%2C16.430&amp;layer=mapnik&amp;marker=16.415%2C120.592"></iframe>
+            <p><a href="https://www.openstreetmap.org/?mlat=16.415&amp;mlon=120.592#map=15/16.415/120.592" target="_blank" rel="noopener">View larger map</a></p>
+
+            <h3>Reach Us</h3>
+            <address>
+                FightCart<br>
+                General Luna Road, Baguio City, Philippines<br>
+                Phone: <a href="tel:+63744423071">(074) 442-3071</a><br>
+                Email: <a href="mailto:hello@fightcart.example">hello@fightcart.example</a>
+            </address>
+
+            <h3>Leave a Review</h3>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <p><label for="review-name">Your name:</label> <input type="text" id="review-name" name="review-name" required></p>
+                <p><label for="rating">Rating (1 to 5):</label> <input type="range" id="rating" name="rating" min="1" max="5" value="5"></p>
+                <p><label for="review-text">Your review:</label><br><textarea id="review-text" name="review-text" rows="4" cols="40" required></textarea></p>
+                <p><label for="review-photo">Attach a photo (optional):</label> <input type="file" id="review-photo" name="review-photo" accept="image/*"></p>
+                <button type="submit">Submit Review</button>
+            </form>
+        </section>
+        <hr>
+
+        <section id="links">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="https://www.openstreetmap.org/" target="_blank" rel="noopener">OpenStreetMap</a></li>
+                <li><a href="https://maps.google.com/" target="_blank" rel="noopener">Google Maps</a></li>
+                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener">FightCart on Facebook</a></li>
+                <li><a href="#top">Back to top</a></li>
+            </ul>
+        </section>
+
+        <section id="terms-info">
+            <h2>Terms &amp; Conditions</h2>
+            <details>
+                <summary>Read the terms</summary>
+                <ol>
+                    <li>Returns: Unused gear in original condition may be returned within seven days with proof of purchase.</li>
+                    <li>Delivery: Delivery dates are estimates and may change because of weather or availability.</li>
+                    <li>Payment: Customers must select a payment method and provide accurate checkout details.</li>
+                    <li>Safety: Protective gear should fit properly and be used according to coach and manufacturer guidance.</li>
+                </ol>
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p><a href="#home">About Us</a> | <a href="#contact">Contact</a> | <a href="#terms-info">Shipping Policy</a> | <a href="#terms-info">Returns</a></p>
+        <p>&copy; 2026 FightCart. All rights reserved.</p>
+        <p><a href="#top">Back to top</a></p>
